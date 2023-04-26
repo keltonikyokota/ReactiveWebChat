@@ -1,0 +1,8 @@
+.listItem {
+    margin-left: 20px;
+    color: white;
+}
+
+.listItem > div {
+    align-items: center;
+}

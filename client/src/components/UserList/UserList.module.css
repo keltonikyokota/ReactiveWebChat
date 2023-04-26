@@ -1,0 +1,8 @@
+.listWrapper {
+    max-height: 100%;
+    overflow: auto;
+}
+
+.list {
+    background-color: rgb(12, 108, 138);
+}

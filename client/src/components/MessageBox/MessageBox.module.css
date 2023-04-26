@@ -1,0 +1,14 @@
+.messageBox {
+    background: url("/public/assets/img/wallpaper.webp");
+    background-position: left center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: calc(100% - 52px);
+    overflow: auto;
+
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: column-reverse;
+}

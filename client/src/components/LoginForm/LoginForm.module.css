@@ -1,0 +1,16 @@
+.formContainer {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.formContainer > h2 {
+    margin-bottom: 30px;
+}
+
+.buttonSubmit {
+    width: 100%;
+}

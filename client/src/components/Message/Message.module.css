@@ -1,0 +1,41 @@
+.messageItem, .selfMessageItem, .serverMessageItem {
+    padding: 10px;
+    margin: 10px;
+    background-color: #001529;
+    color: rgb(161, 161, 161);
+    max-width: 80%;
+    box-sizing: border-box;
+    border-radius: 8px;
+    width: fit-content;
+    flex-shrink: 0;
+}
+
+.selfMessageItem {
+    align-self: flex-end;
+    background-color: rgb(12, 108, 138);
+    margin-left: auto;
+}
+
+.serverMessageItem {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: rgb(211, 211, 211);
+    font-size: 0.8rem;
+    margin: 10px auto;
+}
+
+.selfMessageItem > span {
+    color: rgb(53, 53, 53);
+}
+
+.messageAuthor {
+    font-size: 0.8rem;
+    color: white;
+}
+
+.messageText {
+    font-size: 1.2rem;
+}
+
+.messageDate {
+    color: rgb(94, 94, 94);
+}
